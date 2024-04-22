@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manada GHAG</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <a href="Inicio.html"><h1>Manada GHAG</h1></a>
+    </header>
+    <nav>
+        <a href="Inicio.html">Inicio</a>
+        <a href="Detalles.html">Detalles</a>
+        <a href="Galería de imágenes.html">Galería de imágenes</a>
+        <a href="Formulario de contacto.html">Formulario de contacto</a>
+    </nav>
+    <main>
+        <h2>Formulario de contacto</h2>
+        <p>Por favor, complete el siguiente formulario si desea solicitar su ingreso a nuestra manada. Acompañe su solicitud con una breve explicación de por qué desea formar parte de nuestro grupo. </p>
+        <form action="mailto:tudirecciondecorreo@example.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <p>Manada GHAG &copy;2024</p>
+    </footer>
+</body>
+</html>
